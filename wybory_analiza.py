@@ -28,14 +28,14 @@ common = pd.merge(pierwsza_tura, druga_tura, on=merge_key, suffixes=("_1T", "_2T
 
 # Preferencje drugoturówki (Trzaskowski, Nawrocki)
 transfer = {
-    "BARTOSZEWICZ ARTUR": (0.15, 0.70),
-    "BIEJAT MAGDALENA AGNIESZKA": (0.80, 0.10),
-    "BRAUN GRZEGORZ MICHAŁ": (0.05, 0.90),
+    "BARTOSZEWICZ ARTUR": (0.20, 0.70),
+    "BIEJAT MAGDALENA AGNIESZKA": (0.85, 0.10),
+    "BRAUN GRZEGORZ MICHAŁ": (0.10, 0.90),
     "HOŁOWNIA SZYMON FRANCISZEK": (0.85, 0.10),
     "JAKUBIAK MAREK": (0.10, 0.80),
     "MACIAK MACIEJ": (0.15, 0.70),
-    "MENTZEN SŁAWOMIR JERZY": (0.05, 0.70),
-    "SENYSZYN JOANNA": (0.85, 0.05),
+    "MENTZEN SŁAWOMIR JERZY": (0.10, 0.70),
+    "SENYSZYN JOANNA": (0.90, 0.05),
     "STANOWSKI KRZYSZTOF JAKUB": (0.20, 0.20),
     "WOCH MAREK MARIAN": (0.20, 0.60),
     "ZANDBERG ADRIAN TADEUSZ": (0.80, 0.15),
